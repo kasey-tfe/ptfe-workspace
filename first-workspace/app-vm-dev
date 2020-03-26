@@ -11,7 +11,7 @@ locals {
   cluster_name         = "East"
   datastore_name       = "380SSDDatastore02"
   network_name         = "VM Network"
-  virtual_machine_name = "KH>"
+  virtual_machine_name = "KH"
 }
 
 data "vsphere_datacenter" "dc" {
